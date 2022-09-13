@@ -5,7 +5,7 @@ MAINTAINER Alphacpc <alphacpc@gmail.com>
 WORKDIR /root
 
 # install openssh-server, openjdk and wget
-RUN apt-get update && apt-get install -y openssh-server openjdk-11-jdk wget nano
+RUN apt-get update && apt-get install -y openssh-server openjdk-8-jdk wget nano
 
 # install hadoop 3.3.4
 RUN wget https://archive.apache.org/dist/hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz && \
